@@ -3,7 +3,7 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light ml-3">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ml-3 ">
       <a className="navbar-brand" href="#">
         ArmBrain Tutoring
       </a>
@@ -21,9 +21,9 @@ export default function Nav() {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <NavLink className="nav-link" to="/#" exact={true}>
-              Home <span className="sr-only">(current)</span>
+          <li className="nav-item active ">
+            <NavLink className="nav-link" to="/#">
+              Home
             </NavLink>
           </li>
           <li className="nav-item">
