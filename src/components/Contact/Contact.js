@@ -1,4 +1,4 @@
-function Contact() {
+function Contact({ booking }) {
   return (
     <div>
       <form>
@@ -41,19 +41,36 @@ function Contact() {
             We'll never share your email with anyone else.
           </small>
         </div>
-        <div class="form-group mx-3">
+        <div className="form-group mx-3">
+          <label for="inputFirstName" className="fs-5">
+            Booking
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="inputFirstName"
+            placeholder="Please choose a booking from the Pricing page"
+            required
+            readOnly
+            value={booking}
+          />
+        </div>
+        <div className="form-group mx-3">
           <label for="exampleFormControlTextarea1" className="fs-5">
             Message
           </label>
           <textarea
-            class="form-control"
+            className="form-control"
             id="contactMessage"
             rows="5"
             required
           ></textarea>
         </div>
         <div className="text-center">
-          <button type="submit" class="btn btn-primary px-4 py-2 mx-auto fs-3">
+          <button
+            type="submit"
+            className="btn btn-primary px-4 py-2 mx-auto fs-3"
+          >
             Send
           </button>
         </div>
