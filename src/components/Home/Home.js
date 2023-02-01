@@ -42,7 +42,7 @@ function Home() {
           <div className="carousel-inner bg-danger">
             <div className="carousel-item active">
               <div className="card d-block w-100 p-3 bg-danger">
-                <p className="card-text fs-4 ml-2">
+                <p className="card-text fs-4 ml-2 px-5 text-center">
                   I recently tried ArmBrain for online tutoring and was
                   extremely impressed with the quality of service. The tutors
                   are knowledgeable and patient, and they provide clear and
@@ -60,7 +60,7 @@ function Home() {
             </div>
             <div className="carousel-item">
               <div className="card d-block w-100 p-3 bg-danger">
-                <p className="card-text fs-4 ml-2">
+                <p className="card-text fs-4 ml-2 px-5 text-center">
                   I highly recommend ArmBrain to anyone looking for top-notch
                   academic support. Their experienced tutors are knowledgeable
                   and patient, providing personalized lessons that cater to each
@@ -78,7 +78,7 @@ function Home() {
             </div>
             <div className="carousel-item">
               <div className="card d-block w-100 p-3 bg-danger">
-                <p className="card-text fs-4 ml-2">
+                <p className="card-text fs-4 ml-2 px-5 text-center">
                   ArmBrain Tutoring is an absolute gem! Their tutors are
                   knowledgeable, patient, and truly care about their students'
                   success. I was struggling with Math, but after just a few
