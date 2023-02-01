@@ -10,7 +10,7 @@ function Pricing() {
             <li>Customized learning plan</li>
           </ul>
           <a href="#" class="btn btn-primary">
-            Buy Now
+            Book Now
           </a>
         </div>
       </div>
@@ -24,7 +24,7 @@ function Pricing() {
             <li>Friends can register together!</li>
           </ul>
           <a href="#" class="btn btn-primary">
-            Buy Now
+            Book Now
           </a>
         </div>
       </div>
@@ -41,7 +41,7 @@ function Pricing() {
             </li>
           </ul>
           <a href="#" class="btn btn-primary">
-            Buy Now
+            Book Now
           </a>
         </div>
       </div>

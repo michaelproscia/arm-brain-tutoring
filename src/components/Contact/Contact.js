@@ -11,6 +11,7 @@ function Contact() {
             className="form-control"
             id="inputFirstName"
             placeholder="Enter first name"
+            required
           />
         </div>
         <div className="form-group mx-3">
@@ -22,6 +23,7 @@ function Contact() {
             className="form-control"
             id="inputLastName"
             placeholder="Enter last name"
+            required
           />
         </div>
         <div className="form-group mx-3">
@@ -33,6 +35,7 @@ function Contact() {
             className="form-control"
             id="InputEmail1"
             placeholder="Enter email"
+            required
           />
           <small id="emailHelp" className="form-text text-muted text-center">
             We'll never share your email with anyone else.
@@ -46,6 +49,7 @@ function Contact() {
             class="form-control"
             id="contactMessage"
             rows="5"
+            required
           ></textarea>
         </div>
         <div className="text-center">
