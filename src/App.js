@@ -2,6 +2,7 @@ import Home from "./components/Home/Home";
 import Pricing from "./components/Pricing/Pricing";
 import Contact from "./components/Contact/Contact";
 import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 
@@ -23,6 +24,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Footer />
     </main>
   );
 }

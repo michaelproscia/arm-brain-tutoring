@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light ml-3 ">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand " href="#">
         ArmBrain Tutoring
       </a>
       <button
