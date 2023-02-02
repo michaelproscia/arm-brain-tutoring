@@ -11,7 +11,7 @@ function Footer() {
       <div>
         <a href="" className="me-4 text-reset">
           <img
-            className="h-25 bg-danger border border-dark border-2 rounded-circle p-1"
+            className="h-25 bg-primary border border-dark border-2 rounded-circle p-1"
             src={facebook}
             alt="facebook icon"
             style={{ width: 40 }}
@@ -22,7 +22,7 @@ function Footer() {
             src={twitter}
             alt="twitter icon"
             style={{ width: 40 }}
-            className="h-25 bg-danger border border-dark border-2 rounded-circle p-1"
+            className="h-25 bg-primary border border-dark border-2 rounded-circle p-1"
           />
         </a>
         <a href="" className="me-4 text-reset">
@@ -30,7 +30,7 @@ function Footer() {
             src={google}
             alt="google icon"
             style={{ width: 40 }}
-            className="h-25 bg-danger border border-dark border-2 rounded-circle p-1"
+            className="h-25 bg-primary border border-dark border-2 rounded-circle p-1"
           />
         </a>
         <a href="" className="me-4 text-reset">
@@ -38,7 +38,7 @@ function Footer() {
             src={instagram}
             alt="instagram icon"
             style={{ width: 40 }}
-            className="h-25 bg-danger border border-dark border-2 rounded-circle p-1"
+            className="h-25 bg-primary border border-dark border-2 rounded-circle p-1"
           />
         </a>
         <a href="" className="me-4 text-reset">
@@ -46,7 +46,7 @@ function Footer() {
             src={linkedin}
             alt="linkedin icon"
             style={{ width: 40 }}
-            className="h-25 bg-danger border border-dark border-2 rounded-circle p-1"
+            className="h-25 bg-primary border border-dark border-2 rounded-circle p-1"
           />
         </a>
       </div>

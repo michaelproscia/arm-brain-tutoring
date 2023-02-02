@@ -28,7 +28,7 @@ function Home() {
 
       {/*Carousel*/}
       <div className="card">
-        <h2 className="card-header text-center bg-danger">Testimonials</h2>
+        <h2 className="card-header text-center bg-primary">Testimonials</h2>
         <div id="carousel" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li
@@ -39,9 +39,9 @@ function Home() {
             <li data-target="#carousel" data-slide-to="1"></li>
             <li data-target="#carousel" data-slide-to="2"></li>
           </ol>
-          <div className="carousel-inner bg-danger">
+          <div className="carousel-inner bg-primary">
             <div className="carousel-item active">
-              <div className="card d-block w-100 p-3 bg-danger">
+              <div className="card d-block w-100 p-3 bg-primary">
                 <p className="card-text fs-4 ml-2 px-5 text-center">
                   I recently tried ArmBrain for online tutoring and was
                   extremely impressed with the quality of service. The tutors
@@ -59,7 +59,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="card d-block w-100 p-3 bg-danger">
+              <div className="card d-block w-100 p-3 bg-primary">
                 <p className="card-text fs-4 ml-2 px-5 text-center">
                   I highly recommend ArmBrain to anyone looking for top-notch
                   academic support. Their experienced tutors are knowledgeable
@@ -77,7 +77,7 @@ function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="card d-block w-100 p-3 bg-danger">
+              <div className="card d-block w-100 p-3 bg-primary">
                 <p className="card-text fs-4 ml-2 px-5 text-center">
                   ArmBrain Tutoring is an absolute gem! Their tutors are
                   knowledgeable, patient, and truly care about their students'
