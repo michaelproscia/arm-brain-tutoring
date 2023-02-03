@@ -1,5 +1,8 @@
 import students from "./students.jpg";
 
+const backgroundColor = "rgba(128, 128, 128, 0.6)";
+const textColor = ""
+
 function Home() {
   return (
     <div>
@@ -9,15 +12,21 @@ function Home() {
           src={students}
           alt="Students in a classroom."
         />
-        <div className="card-img-overlay card-inverse bg-secondary opacity-50">
-          <h1 className="text-stroke text-white pb-2 pt-2x text-center position-relative opacity-100 top-50">
+        <div
+          className="card-img-overlay card-inverse"
+          style={{ background: backgroundColor }}
+        >
+          <h1
+            className="text-stroke text-white pb-2 pt-2x text-center position-relative top-50"
+            style={{ opacity: 100 }}
+          >
             Train Your Brain at ArmBrain!
           </h1>
         </div>
       </div>
       <div className="card">
         <h2 className="text-center card-header">About Us</h2>
-        <p className="card-body fs-3">
+        <p className="card-body fs-4 px-4">
           ArmBrain is more than a tutoring center. ArmBrain offers each student
           an individualized learning experience. Our world-class instructors
           will take the time to get to know you and your strengths and
