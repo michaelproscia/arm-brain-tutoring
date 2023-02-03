@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light ml-3 ">
-      <a className="navbar-brand " href="#">
+    <nav className="navbar navbar-expand-lg navbar-light bg-primary pl-3">
+      <a className="navbar-brand fw-bold" href="#">
         ArmBrain Tutoring
       </a>
       <button
