@@ -1,7 +1,7 @@
 import students from "./students.jpg";
 
 const backgroundColor = "rgba(128, 128, 128, 0.6)";
-const textColor = ""
+const textColor = "";
 
 function Home() {
   return (
@@ -27,11 +27,11 @@ function Home() {
       <div className="card">
         <h2 className="text-center card-header">About Us</h2>
         <p className="card-body fs-4 px-4">
-          ArmBrain is more than a tutoring center. ArmBrain offers each student
+          "ArmBrain is more than a tutoring center. ArmBrain offers each student
           an individualized learning experience. Our world-class instructors
           will take the time to get to know you and your strengths and
           weaknesses, and develop a perfect plan to strengthen your brain. Come
-          join the ArmBrain family, and grow with us today!
+          join the ArmBrain family, and grow with us today!"
         </p>
       </div>
 
@@ -51,15 +51,15 @@ function Home() {
           <div className="carousel-inner bg-primary">
             <div className="carousel-item active">
               <div className="card d-block w-100 p-3 bg-primary">
-                <p className="card-text fs-4 ml-2 px-5 text-center">
-                  I recently tried ArmBrain for online tutoring and was
+                <p className="card-text fs-4 ml-2 px-5 text-center font-italic">
+                  "I recently tried ArmBrain for online tutoring and was
                   extremely impressed with the quality of service. The tutors
                   are knowledgeable and patient, and they provide clear and
                   effective explanations. The platform is user-friendly and the
                   scheduling process is seamless. I also appreciate the
                   flexibility of being able to have sessions from the comfort of
                   my own home. Overall, I highly recommend ArmBrain for anyone
-                  in need of online tutoring
+                  in need of online tutoring"
                 </p>
                 <h3 className="card-title text-right mr-2 pb-3">
                   - The Stevenson Family <br />
@@ -69,15 +69,15 @@ function Home() {
             </div>
             <div className="carousel-item">
               <div className="card d-block w-100 p-3 bg-primary">
-                <p className="card-text fs-4 ml-2 px-5 text-center">
-                  I highly recommend ArmBrain to anyone looking for top-notch
+                <p className="card-text fs-4 ml-2 px-5 text-center font-italic">
+                  "I highly recommend ArmBrain to anyone looking for top-notch
                   academic support. Their experienced tutors are knowledgeable
                   and patient, providing personalized lessons that cater to each
                   student's individual needs and learning style. My child has
                   seen significant improvement in their grades and confidence
                   since starting with this company. The online platform is
                   user-friendly and the scheduling process is hassle-free.
-                  Overall, a fantastic investment in my child's education.
+                  Overall, a fantastic investment in my child's education."
                 </p>
                 <h3 className="card-title text-right mr-2 pb-3">
                   - The Proscia Family <br />
@@ -87,7 +87,7 @@ function Home() {
             </div>
             <div className="carousel-item">
               <div className="card d-block w-100 p-3 bg-primary">
-                <p className="card-text fs-4 ml-2 px-5 text-center">
+                <p className="card-text fs-4 ml-2 px-5 text-center font-italic">
                   ArmBrain Tutoring is an absolute gem! Their tutors are
                   knowledgeable, patient, and truly care about their students'
                   success. I was struggling with Math, but after just a few
